@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas Saludables | Diseño Profesional</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="main-header">
+        <div class="logo">NutriChef</div>
+        <nav class="main-nav">
+            <ul role="list">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#recetas">Recetas</a></li>
+                <li><a href="#video-receta">Tutorial</a></li>
+                <li><a href="#contáctanos">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero-section">
+            <h1 class="hero-title">Cocina, Nutrición y Sabor</h1>
+            <p class="hero-subtitle">Descubre el arte de comer bien con recetas diseñadas para tu bienestar.</p>
+            <a href="#recetas" class="btn btn-primary">Explorar Recetas</a>
+             <img src="img/foto7.png" alt="Pompompurin kawaii" class="purin-hero">
+        </section>
+
+        <section id="recetas" class="recipes-section">
+            <h2 class="section-title">Nuestras Últimas Creaciones</h2>
+            
+            <div class="filter-controls" role="group" aria-label="Filtro de recetas">
+                <button class="btn btn-filter active" data-category="all">Todas</button>
+                <button class="btn btn-filter" data-category="breakfast">Desayunos</button>
+                <button class="btn btn-filter" data-category="lunch">Almuerzos</button>
+                <button class="btn btn-filter" data-category="dessert">Postres</button>
+            </div>
+
+            <div class="recipe-grid">
+                <article class="recipe-card" data-category="lunch">
+                    <img src="img/foto1.png" alt="Ensalada de Quinoa" class="recipe-image">
+                    <div class="card-content">
+                        <h3 class="card-title">Ensalada Mediterránea de Quinoa</h3>
+                        <p>Plato completo, rico en proteínas y perfecto para llevar.</p>
+                       <a href="ensalada-quinoa.html" class="btn btn-secondary">Ver Detalles</a>
+
+                    </div>
+                </article>
+                
+                <article class="recipe-card" data-category="breakfast">
+                    <img src="img/foto2.png" alt="Smoothie Energético" class="recipe-image">
+                    <div class="card-content">
+                        <h3 class="card-title">Smoothie Energético de Bayas</h3>
+                        <p>Rápido, nutritivo y el mejor comienzo para un día activo.</p>
+                        <a href="smoothie-bayas.html" class="btn btn-secondary">Ver Detalles</a>
+
+
+                    </div>
+                </article>
+                
+                <article class="recipe-card" data-category="dessert">
+                    <img src="img/foto3.png" alt="Tarta Cruda de Fresa" class="recipe-image">
+                    <div class="card-content">
+                        <h3 class="card-title">Tarta Cruda de Fresa y Anacardos</h3>
+                        <p>Postre sin culpa, vegano y delicioso, sin necesidad de horno.</p>
+                        <a href="tarta-fresa.html" class="btn btn-secondary">Ver Detalles</a>
+
+                    </div>
+                </article>
+
+                <article class="recipe-card" data-category="lunch">
+                   <img src="img/foto4.png" alt="Sopa de Lentejas" class="recipe-image">
+                    <div class="card-content">
+                        <h3 class="card-title">Sopa Caliente de Lentejas Especiadas</h3>
+                        <p>Receta tradicional con un toque de especias para un almuerzo reconfortante.</p>
+                        <a href="sopa-lentejas.html" class="btn btn-secondary">Ver Detalles</a>
+
+                    </div>
+                </article>
+
+                <article class="recipe-card" data-category="breakfast">
+                    <img src="img/foto5.png" alt="Pancakes de Avena" class="recipe-image">
+                    <div class="card-content">
+                        <h3 class="card-title">Pancakes de Avena y Semillas de Chía</h3>
+                        <p>Desayuno alto en fibra que te mantendrá satisfecho hasta el mediodía.</p>
+                       <a href="pancakes-avena.html" class="btn btn-secondary">Ver Detalles</a>
+
+                    </div>
+                </article>
+                
+                <article class="recipe-card" data-category="dessert">
+                    <img src="img/foto6.png" alt="Mousse de Chocolate" class="recipe-image">
+                    <div class="card-content">
+                        <h3 class="card-title">Mousse de Chocolate y Aguacate Premium</h3>
+                        <p>Una textura sedosa con el sabor intenso del cacao puro. ¡Imperdible!</p>
+                        <a href="mousse-chocolate.html" class="btn btn-secondary">Ver Detalles</a>
+
+                    </div>
+                </article>
+                
+            </div>
+        </section>
+
+        <section id="video-receta" class="video-section">
+            <h2 class="section-title">📺 Tutorial Destacado: Bowl de Acai Perfecto</h2>
+            <div class="video-embed-container">
+    <video controls width="100%" class="video-kawaii">
+        <source src="video/videoplayback2.mp4" type="video/mp4">
+    </video>
+</div>
+
+        </section>
+    </main>
+
+    <footer id="contáctanos" class="main-footer">
+        <p>&copy; 2025 NutriChef. Recetas con propósito.</p>
+        <div class="social-links">
+            <a href="#">Instagram</a> | 
+            <a href="#">Pinterest</a> |
+            <a href="#">Email</a>
+        </div>
+    </footer>
+    
+    <script src="script.js" defer></script>
+</body>
+</html>
